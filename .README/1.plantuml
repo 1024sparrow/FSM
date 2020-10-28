@@ -1,0 +1,13 @@
+@startuml
+
+fsmDescription: Описание машины состояний (*.js)
+template: Шаблон выходного файла (text)
+output: Генерированный файл
+output: *.cs
+output: *.h && *.cpp
+output: *.png
+output: & etc. (use your own templates)
+fsmDescription --> diagram
+template --> diagram
+
+@enduml
