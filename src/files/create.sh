@@ -26,7 +26,7 @@ then
 	ok=true
 elif [[ "$1" =~ .*\.py$ ]]
 then
-	echo "#!/usr/bin/env python
+	echo "#!/usr/bin/env python3
 #-*- coding: utf-8 -*-
 
 import sys, re
