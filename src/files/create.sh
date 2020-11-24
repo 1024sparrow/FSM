@@ -31,7 +31,7 @@ then
 
 import sys, re
 
-# process file located at sys.argv[2]
+# process file located at sys.argv[1]
 " > "$name"
 	ok=true
 fi
